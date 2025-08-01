@@ -418,17 +418,5 @@ POST /module2/search-from-prompt
 - `POST /api/v1/text-quality/analyze-single-text` - Tek metin analizi
 - `GET /api/v1/text-quality/stats` - Modül istatistikleri
 
-## Geliştirme
 
-### Modül Ekleme
-1. `app/modules/` altında yeni modül klasörü oluşturun
-2. `models.py`, `schemas.py`, `services.py`, `routes.py` dosyalarını ekleyin
-3. Ana router'a modülü kaydedin
 
-### Test
-```bash
-pytest tests/
-```
-
-## Lisans
-MIT 
